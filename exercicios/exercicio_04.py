@@ -14,6 +14,6 @@ soma_triplo_primeiro_terceiro = (numero_1 * 3) + numero_3
 
 terceiro_elevado_cubo = numero_3 ** 3
 
-print(produto_dobro_primeiro_metade_segundo)
-print(soma_triplo_primeiro_terceiro)
-print(terceiro_elevado_cubo)
+print(f'Resultado 1: {produto_dobro_primeiro_metade_segundo}')
+print(f'Resultado 2: {soma_triplo_primeiro_terceiro}')
+print(f'Resultado 3: {terceiro_elevado_cubo:.2f}')
