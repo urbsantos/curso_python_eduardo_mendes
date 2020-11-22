@@ -4,11 +4,10 @@
 # que custam R$ 80,00. Informe ao usuário a quantidade de latas de tinta a serem compradas
 # e o preço total.
 
-tamanho_metros_quadrados = int(input('Tamanho em metros quadrados: '))
+tamanho_metros_quadrados = float(input('Tamanho em metros quadrados: '))
 
-cobertura_da_tinta = int(tamanho_metros_quadrados * 3)
-quantidade_latas_de_tinta = int(cobertura_da_tinta / 18)
-valor_total_tinta = int(quantidade_latas_de_tinta * 80)
+quantidade_latas_de_tinta = 1 + ((tamanho_metros_quadrados / 3) // 18)
+valor_total_tinta = quantidade_latas_de_tinta * 80
 
-print('A quantidade de latas de tinta necessárias é: ', quantidade_latas_de_tinta)
-print('O preço total gasto em tinta será: ', valor_total_tinta)
+print(f'A quantidade de latas de tinta necessárias é: {quantidade_latas_de_tinta:.2f}')
+print(f'O preço total gasto em tinta será: {valor_total_tinta:.2f}')
