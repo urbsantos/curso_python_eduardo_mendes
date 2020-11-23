@@ -8,12 +8,12 @@ numero_1 = int(input('Digite o primeiro número, número inteiro: '))
 numero_2 = int(input('Digite o segundo número, número inteiro: '))
 numero_3 = float(input('Digite o terceiro número, número float: '))
 
-produto_dobro_primeiro_metade_segundo = (numero_1 * 2) * (numero_2 / 2)
+resutaldo_1 = (numero_1 * 2) * (numero_2 / 2)
 
-soma_triplo_primeiro_terceiro = (numero_1 * 3) + numero_3
+resultado_2 = (numero_1 * 3) + numero_3
 
-terceiro_elevado_cubo = numero_3 ** 3
+resultado_3 = numero_3 ** 3
 
-print(f'Resultado 1: {produto_dobro_primeiro_metade_segundo}')
-print(f'Resultado 2: {soma_triplo_primeiro_terceiro}')
-print(f'Resultado 3: {terceiro_elevado_cubo:.2f}')
+print(f'Resultado 1: {resutaldo_1}')
+print(f'Resultado 2: {resultado_2}')
+print(f'Resultado 3: {resultado_3:.2f}')
